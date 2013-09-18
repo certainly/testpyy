@@ -1,15 +1,6 @@
-import os
+import _tkinter
+import Tkinter
+from Tkinter import *
 
-def make_text_file():
-
-        # a=open('text.txt',"a")
-        # a.write("""dff
-        # dddrxd""")
-        # a.close()
-    a=open('text.txt',"r")
-    text=a.readlines();
-    for line in text:
-        print (len(line))
-
-
-make_text_file();
+Label(text="sa33333333333333y").pack(expand=YES,fill=BOTH)
+mainloop()

@@ -1,6 +1,8 @@
-import _tkinter
-import Tkinter
-from Tkinter import *
+import numpy
+import platform
+print platform.python_version()
+import pylab
 
-Label(text="sa33333333333333y").pack(expand=YES,fill=BOTH)
-mainloop()
+pylab.plot([5,4,3,2,1])
+pylab.show()
+
